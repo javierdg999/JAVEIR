@@ -1,0 +1,29 @@
+/*** VARIABLES RESET & AJUSTES GLOBALES***/
+@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,300;0,400;0,700;0,900;1,300&family=Poppins:wght@400;600;700;900&display=swap');
+
+:root{
+    --theme: #5a3737;
+    --primary: #ffffff;
+    --secondary: #000000;
+    --terciary: #ff4000;
+    --cuaternary: #a8ce00;
+    --font: 'Poppins', 'sans serif';
+    }
+    
+    /* RESET */
+    
+    body,p,a,ul,li {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        box-sizing: border-box;
+    }
+    
+    /* BASE STYLES */
+    
+    body{
+        background-color: var(--theme);
+        font-family: var(--font);
+    
+    }
+  

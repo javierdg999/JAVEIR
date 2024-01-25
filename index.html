@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAVEIR DAIZ</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/hero.css">
+    <link rel="stylesheet" href="./css/matrix.css">
+    <link rel="stylesheet" href="./css/shows.css">
+    <link rel="shortcut icon" href="./img/favicon1.png" type="image/x-icon">
+</head>
+
+<body>
+    <div id="index"></div>
+<!------------------------------------- HEADER NAVBAR -------------------------------->
+
+    <header>
+
+        <a href="#index" class="logo"> 
+            <img class="iconlogo" src="./img/logo.png" alt="Logo">
+        </a> 
+        <button id="abrir" class="abrir-menu">
+               <i class="bi bi-list"></i>
+        </button>
+
+        <nav class="nav" id="nav">
+
+            <button class="cerrar-menu" id="cerrar">
+                <i class="bi bi-x"></i>
+            </button>
+            
+            <ul class="nav-list">
+                <li><a href="#index">HOME</a></li>
+                <li><a href="#shows">SHOWS</a></li>
+                <li><a href="#musica">MÚSICA</a></li>
+                <li><a href="#video">VÍDEO</a></li>
+                <li><a href="#storys">STORYS</a></li>
+                <li><a href="#shop">SHOP</a></li>  
+                <li><a href="#contact">CONTACT</a></li>
+            
+            <ul class="social-list">
+                <li><a href="URL_DE_FACEBOOK"><i class="fa-brands fa-facebook-f" style="color: #ffffff;"></i></a></li>
+                <li><a href="URL_DE_TIKTOK"><i class="fa-brands fa-tiktok" style="color: #ffffff;"></i></a></li>
+                <li><a href="URL_DE_INSTAGRAM"><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></a></li>
+                <li><a href="URL_DE_TWEETER-X"><i class="fa-brands fa-x-twitter" style="color: #ffffff;"></i></a></li>
+                <li><a href="URL_DE_YOUTUBE"><i class="fa-brands fa-youtube" style="color: #ffffff;"></i></a></li>
+                <li><a href="URL_DE_SPOTIFY"><i class="fa-brands fa-spotify" style="color: #ffffff;"></i></a></li>
+                <li><a href="URL_DE_APPLE"><i class="fa-brands fa-apple" style="color: #ffffff;"></i></a></li>
+                <li><a href="URL_DE_NEWSLETTER"><i class="fa-solid fa-envelope" style="color: #ffffff;"></i></a></li>
+            </ul>
+        </ul> 
+        </nav>
+    </header>
+    
+<!------------------------------ FIN DE HEADER NAVBAR ------------------------------------>
+
+<!---------------------------------------- HERO ------------------------------------------->
+
+<div class="hero">
+    <div class="hero-card">
+        <div class="hero-textos">
+            <h1>LUCES</h1>
+            <h3>LA CIUDAD DESPIERTA</h3>
+            <p>By JAVEIR DAÍZ</p>
+        </div>
+        <a href="https://www.youtube.com" target="_blank">
+            <button class="hero-button">Out Now</button>
+        </a>
+        <div>
+            <audio id="myAudio" src="/frontend/music/music5.mp3" type="audio/mpeg"></audio>
+            <button id="playButton" class="hero-button">Play</button>
+          </div>
+    </div>
+    <img src="img/hero/bgmovil.png" class="background-image" alt="Imagen flotante">
+    <img src="img/hero/personajemovil.png" class="floating-image" alt="Imagen flotante">
+
+    <div class="matrix-container">
+        <canvas id="matrixCanvas"></canvas>
+    </div>
+</div>
+       
+<!----------------------------------- FIN DE HERO ----------------------------------->
+
+<!--------------------------- SHOWS PUBLICIDAD Y PROMOCIÓN ------------->
+
+<section id="shows">
+    <h1 class="shows-titulo">SHOWS 2024</h1>
+    <div class="shows-contenedor">
+            <div class="shows-contenedor-conciertos">
+
+                <div class="shows-card" style="background-image: url('./img/shows/1.jpg')">
+                    <div class="shows-textos">
+                        <h3>Rock In Rio</h3>
+                        <p>27 de Octubre 2021</p>
+                    </div>
+                </div>
+
+                <div class="shows-card" style="background-image: url('./img/shows/2.jpg')">
+                    <div class="shows-textos">
+                        <h3>FalconMasters’ Concert</h3>
+                        <p>12 de Noviembre 2021</p>
+                    </div>
+                </div>
+
+                <div class="shows-card" style="background-image: url('./img/shows/3.jpg')">
+                    <div class="shows-textos">
+                        <h3>Coachella</h3>
+                        <p>13 de Diciembre 2021</p>
+                    </div>
+                </div>
+
+                <div class="shows-card" style="background-image: url('./img/shows/4.jpg')">
+                    <div class="shows-textos">
+                        <h3>US Festival</h3>
+                        <p>20 de Diciembre 2021</p>
+                    </div>
+                </div>
+
+                <div class="shows-card" style="background-image: url('./img/shows/5.jpg')">
+                    <div class="shows-textos">
+                        <h3>Altamont Speedway</h3>
+                        <p>27 de Diciembre 2021</p>
+                    </div>
+                </div>
+                
+                <div class="shows-card" style="background-image: url('./img/shows/6.jpg')">
+                    <div class="shows-textos">
+                        <h3>Rock In Rio Again</h3>
+                        <p>1 de Enero 2021</p>
+                    </div>
+                </div>
+
+            </div>
+    <!-- SHOWS BANNER -->
+        <div class="shows-banner" style="background-image: url('./img/shows/banner.jpg')">
+            <h3>Rock Legends 2021</h3>
+            <ul>
+                <li>Guns N' Roses</li>
+                <li>AC/DC</li>
+                <li>Motley Crue</li>
+                <li>The Cult</li>
+                <li>Poison</li>
+                <li>Def Leppard</li>
+            </ul>
+            <button class="shows-button">Comprar Boletos</button>
+        </div>
+    <!-- SHOWS BANNER -->
+      </div>
+</section>
+
+<!----------------------- FIN DE PUBLICIDAD Y PROMOCIÓN ----------------------------------->
+
+<!-- MÚSICA INICIO -->
+
+
+
+<!-- FIN DE MÚSICA -->
+
+<!-- VÍDEO -->
+<!-- FIN DE VÍDEO -->
+
+
+<!-- SCRIPTS -->
+    <script src="https://kit.fontawesome.com/50deb7ac7f.js" crossorigin="anonymous"></script>
+    <script src="./js/nav.js"></script>
+    <script src="./js/main.js"></script>
+
+    <script src="./js/efecto.js"></script>
+    <script src="/frontend/js/playstop.js" ></script>
+
+<!-- SCRIPTS END-->
+
+</body>
+</html>
